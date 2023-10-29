@@ -1,0 +1,39 @@
+.cartBody {
+    display: flex;
+    height: 100%;
+    background-color: #000000;
+    padding-top: 100px;
+    color: white;
+}
+
+.productColumn {
+    width: 65%;
+    padding: 20px 40px;
+    border-right: 1px solid white;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.billColumn {
+    padding: 20px 40px;
+    width: 35%;
+}
+
+.billBox {
+    display: flex;
+    padding: 20px 25px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.billItems {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px;
+    justify-content: space-between;
+    width: 100%;
+}

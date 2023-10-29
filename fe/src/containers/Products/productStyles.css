@@ -1,0 +1,47 @@
+.bodyContainer {
+    padding-top: 100px;
+}
+
+.sfcBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+}
+
+.searchBox>i {
+    margin-left: 5px;
+}
+
+.box_title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.searchBox>input {
+    color: black;
+    padding: 2px;
+    font-size: 18px;
+    border: none
+}
+
+.searchBox i {
+    color: white;
+}
+
+.ant-select {
+    color: black
+}
+
+.cardContainer {
+    margin: 60px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

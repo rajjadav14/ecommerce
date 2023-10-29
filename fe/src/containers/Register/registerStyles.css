@@ -1,0 +1,10 @@
+.rbox {
+    margin-top: 100px;
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+}
+
+.rbutton {
+    margin-top: 100px !important;
+}

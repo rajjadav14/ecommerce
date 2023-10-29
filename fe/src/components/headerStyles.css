@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0px 0.5px wheat;
+    z-index: 100;
+    background-color: black;
+    width: -webkit-fill-available;
+}
+
+.headTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.headTitle:hover {
+    transform: scale(1.2);
+    color: lightskyblue;
+
+}
+
+nav {
+    margin: 0 10px;
+    display: flex;
+
+}
+
+nav>a {
+    color: wheat;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: lightskyblue;
+}
